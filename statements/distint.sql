@@ -1,0 +1,2 @@
+select distinct user_id from profesionales_mysql.users;
+/**la sentencia anterior lo que hace es llamar a todos los elementos distintos es decir, si por ejemplo tenemos en una lista 6 edades entres todos los usuarios, tenemos 15, 20 ,23 ,28,64,45, dado que los usuario no poseen una distinta, puede haber una tabla de de 100 usuarios, y 99 tiene 20 años, y 1 tiene 21 años  con el metodo distint aparecera 20 y 21 años  una vez cada uno*/
